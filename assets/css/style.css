@@ -227,6 +227,7 @@ header {
     font-size: 48px;
 }
 
+
 .content_home .left-details p {
     margin: 20px 0 30px;
 }
@@ -238,7 +239,10 @@ header {
 }
 
 .content_home .right-details > img {
-    width: 620px;
+    width: 600px;
+    height: 600px;
+    
+    padding-right: 200px;
 }
 
 .content_home .right-details .img-tools img {
@@ -274,6 +278,11 @@ header {
     top: 150px;
     right: 500px;
     animation-delay: .8s;
+}
+.content_home .right-details .img-tools img:nth-child(4) {
+    top: 200px;
+    right: 200px;
+    animation-delay: 1s;
 }
 
 .footer-home {
@@ -410,8 +419,8 @@ header {
 }
 
 .about-content .left-details .project,
-.about-content .left-details .years {
-    position: absolute;
+.about-content .left-details .years {    
+    position: absolute ;
     width: 170px;
     height: 80px;
     background-color: #fff;

@@ -36,8 +36,8 @@ function animate(obj, initVal, lastVal, duration) {
 let text1 = document.getElementById("year");
 let text2 = document.getElementById("project");
 const load = () => {
-  animate(text1, 0, 20, 7000);
-  animate(text2, 0, 100, 7000);
+  // animate(text1, 0, 2, 7000);
+  // animate(text2, 0, 100, 7000);
 };
 
 addEventListener("scroll", load());
@@ -154,7 +154,7 @@ cardsTest.forEach((card) => card.addEventListener("click", textActive));
 
 // Typed.js ==========
 var typed = new Typed("#typed", {
-  strings: ["Web Developer", "Designer", "Photographer"],
+  strings: ["Web Developer"],
   typeSpeed: 70,
   backSpeed: 100,
   backDelay: 700,
